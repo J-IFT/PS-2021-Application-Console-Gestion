@@ -25,15 +25,28 @@ namespace ProjetJulietteJeremyMailys
                 monTexteEstEntier = int.TryParse(monTexte, out chiffre);
             }
 
-            return chiffre;
+            //Math.Abs permet de passer les nombres negatifs en positif et éviter d'avoir des heures de cours négatives
+            return Math.Abs(chiffre);
         }
 
         // Demande à l'utilisateur une chaine de caractère
         public static string DemandeString(string message)
         {
-            Console.WriteLine(message);
-            return Console.ReadLine();
+            // Declaration des variables
+            bool texteNonNul = true;
+            string monTexte = "";
 
+            // On boucle tant que texteNonNul est true, quand isNullOrEmpty retourne false (donc que la chaine n'est plus null ou vide), on sort de la boucle et on retourne le texte
+            while (texteNonNul)
+            {
+                Console.WriteLine(message);
+                monTexte = Console.ReadLine();
+                // IsNullOrEmpty retourne false si la chaine n'est pas vide
+                // On enlève les espaces malicieux de la chaine avec Trim() pour éviter de se retrouver avec matière = '     '
+                texteNonNul = string.IsNullOrEmpty(monTexte.Trim(' '));
+            }
+
+            return monTexte;
         }
     }
 }

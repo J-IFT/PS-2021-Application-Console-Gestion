@@ -14,3 +14,19 @@ C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\ProjetJulietteJeremyMai
 C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ref\ProjetJulietteJeremyMailys.dll
 C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.pdb
 C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.genruntimeconfig.cache
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\bin\Debug\net5.0\ProjetJulietteJeremyMailys.exe
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\bin\Debug\net5.0\ProjetJulietteJeremyMailys.deps.json
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\bin\Debug\net5.0\ProjetJulietteJeremyMailys.runtimeconfig.json
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\bin\Debug\net5.0\ProjetJulietteJeremyMailys.runtimeconfig.dev.json
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\bin\Debug\net5.0\ProjetJulietteJeremyMailys.dll
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\bin\Debug\net5.0\ref\ProjetJulietteJeremyMailys.dll
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\bin\Debug\net5.0\ProjetJulietteJeremyMailys.pdb
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.csproj.AssemblyReference.cache
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.GeneratedMSBuildEditorConfig.editorconfig
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.AssemblyInfoInputs.cache
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.AssemblyInfo.cs
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.csproj.CoreCompileInputs.cache
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.dll
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ref\ProjetJulietteJeremyMailys.dll
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.pdb
+C:\GDrive\Cours\B2\C#\TP_Exam\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.genruntimeconfig.cache
