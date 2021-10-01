@@ -18,7 +18,8 @@ namespace ProjetJulietteJeremyMailys
                 Console.WriteLine("Bonjour ! :) Que voulez vous faire ?");
                 Console.WriteLine("1. Créer une nouvelle matière");
                 Console.WriteLine("2. Afficher l'ensemble des matières");
-                Console.WriteLine("3. Quitter");
+                Console.WriteLine("3. Afficher le nombre total d'heures");
+                Console.WriteLine("4. Quitter");
                 string choixUtilisateur = Console.ReadLine();
                 if (choixUtilisateur == "1")
                 {
@@ -37,6 +38,15 @@ namespace ProjetJulietteJeremyMailys
                     }
                 }
                 else if (choixUtilisateur == "3")
+                {
+                    foreach (Matieres p in lesMatieres)
+                    {
+                        //affichage
+                        Console.WriteLine("Nombres d'heures : " + p.NbTotalheures);
+                        Console.WriteLine("*********************************");
+                    }
+                }
+                else if (choixUtilisateur == "4")
                 {
                     exit = true;
                     Console.WriteLine("Appuyer sur une touche pour quitter");

@@ -13,5 +13,7 @@ namespace ProjetJulietteJeremyMailys
         public int Code;
 
         public int Nbheures;
+
+        public string NbTotalheures { get; internal set; }
     }
 }

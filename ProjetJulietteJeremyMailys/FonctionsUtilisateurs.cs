@@ -23,10 +23,16 @@ namespace ProjetJulietteJeremyMailys
                 Console.WriteLine(message);
                 string monTexte = Console.ReadLine();
                 monTexteEstEntier = int.TryParse(monTexte, out chiffre);
+                
+                if (chiffre <= 0)
+                {
+                    monTexteEstEntier = false;
+                    Console.WriteLine("Le chiffre n'est pas superieur à 0.");
+                }
             }
 
-            //Math.Abs permet de passer les nombres negatifs en positif et éviter d'avoir des heures de cours négatives
-            return Math.Abs(chiffre);
+
+            return chiffre;
         }
 
         // Demande à l'utilisateur une chaine de caractère
@@ -44,6 +50,19 @@ namespace ProjetJulietteJeremyMailys
                 // IsNullOrEmpty retourne false si la chaine n'est pas vide
                 // On enlève les espaces malicieux de la chaine avec Trim() pour éviter de se retrouver avec matière = '     '
                 texteNonNul = string.IsNullOrEmpty(monTexte.Trim(' '));
+
+                int chiffre;
+                if (int.TryParse(monTexte, out chiffre))
+                {
+                    texteNonNul = true;
+                }
+
+                if (!char.IsUpper(monTexte[0]))
+                {
+                    texteNonNul = true;
+
+                }
+
             }
 
             return monTexte;
