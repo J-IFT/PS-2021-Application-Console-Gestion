@@ -23,11 +23,19 @@ namespace ProjetJulietteJeremyMailys
                 Console.WriteLine(message);
                 string monTexte = Console.ReadLine();
                 monTexteEstEntier = int.TryParse(monTexte, out chiffre);
-                
-                if (chiffre <= 0)
+
+                if (string.IsNullOrEmpty(monTexte.Trim(' ')))
                 {
                     monTexteEstEntier = false;
-                    Console.WriteLine("Le chiffre n'est pas superieur à 0.");
+                    Console.WriteLine("La saisie est vide.");
+                    Console.WriteLine();
+                }
+
+                else if (chiffre <= 0)
+                {
+                    monTexteEstEntier = false;
+                    Console.WriteLine("Le nombre d'heures doit etre un chiffre ou nombre superieur à 0.");
+                    Console.WriteLine();
                 }
             }
 
@@ -49,18 +57,31 @@ namespace ProjetJulietteJeremyMailys
                 monTexte = Console.ReadLine();
                 // IsNullOrEmpty retourne false si la chaine n'est pas vide
                 // On enlève les espaces malicieux de la chaine avec Trim() pour éviter de se retrouver avec matière = '     '
-                texteNonNul = string.IsNullOrEmpty(monTexte.Trim(' '));
-
                 int chiffre;
-                if (int.TryParse(monTexte, out chiffre))
-                {
+                if (string.IsNullOrEmpty(monTexte.Trim(' ')))
+                    {
                     texteNonNul = true;
+                    Console.WriteLine("La saisie est vide.");
+                    Console.WriteLine();
                 }
 
-                if (!char.IsUpper(monTexte[0]))
+                else if (int.TryParse(monTexte, out chiffre))
                 {
                     texteNonNul = true;
+                    Console.WriteLine("Le nom de la matière ne peut pas etre que des chiffres.");
+                    Console.WriteLine();
+                }
 
+                else if (!char.IsUpper(monTexte[0]))
+                {
+                    texteNonNul = true;
+                    Console.WriteLine("La matière doit commencer par une majuscule.");
+                    Console.WriteLine();
+                }
+
+                else
+                {
+                    texteNonNul = false;
                 }
 
             }

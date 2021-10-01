@@ -39,12 +39,14 @@ namespace ProjetJulietteJeremyMailys
                 }
                 else if (choixUtilisateur == "3")
                 {
+                    int NbTotalHeures = 0;
                     foreach (Matieres p in lesMatieres)
                     {
-                        //affichage
-                        Console.WriteLine("Nombres d'heures : " + p.NbTotalheures);
-                        Console.WriteLine("*********************************");
+                        NbTotalHeures += p.Nbheures;
                     }
+                    //affichage
+                    Console.WriteLine("Nombres d'heures total : " + NbTotalHeures);
+                    Console.WriteLine("*********************************");
                 }
                 else if (choixUtilisateur == "4")
                 {
