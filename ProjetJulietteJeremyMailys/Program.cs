@@ -25,7 +25,6 @@ namespace ProjetJulietteJeremyMailys
                 {
                     Matieres p1 = FonctionsMatieres.CreerMatiere();
                     lesMatieres.Add(p1);
-                    //première question à régler (quand on met rien ça compte quand même)
                 }
                 else if (choixUtilisateur == "2")
                 {
@@ -33,7 +32,7 @@ namespace ProjetJulietteJeremyMailys
                     foreach (Matieres p in lesMatieres)
                     {
                         //affichage
-                        Console.WriteLine("Matière : " + p.Nom + "\nCode : " + p.Code + ", Nombres d'heures : " + p.Nbheures);
+                        Console.WriteLine("Matière : " + p.Nom + "\nCode : " + p.Code + ", Nombres d'heures : " + FonctionsUtilisateurs.FormatNombre(p.Nbheures));
                         Console.WriteLine("*********************************");
                     }
                 }
@@ -45,7 +44,7 @@ namespace ProjetJulietteJeremyMailys
                         NbTotalHeures += p.Nbheures;
                     }
                     //affichage
-                    Console.WriteLine("Nombres d'heures total : " + NbTotalHeures);
+                    Console.WriteLine("Nombres d'heures total : " + FonctionsUtilisateurs.FormatNombre(NbTotalHeures));
                     Console.WriteLine("*********************************");
                 }
                 else if (choixUtilisateur == "4")

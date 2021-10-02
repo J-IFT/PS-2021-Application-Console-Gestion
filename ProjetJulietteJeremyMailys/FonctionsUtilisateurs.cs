@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace ProjetJulietteJeremyMailys
 {
@@ -38,8 +39,6 @@ namespace ProjetJulietteJeremyMailys
                     Console.WriteLine();
                 }
             }
-
-
             return chiffre;
         }
 
@@ -87,6 +86,18 @@ namespace ProjetJulietteJeremyMailys
             }
 
             return monTexte;
+        }
+
+        // Fonction qui permet de formater les nombres dans le format 1 234 567 au lieu de 1234567
+        public static string FormatNombre(int nb)
+        {
+            //On défini un nouveau format de nombre qu'on personnalise
+            // " " pour un espace en séparateur (a modifier si on veut "," ou ".") dans la variable NumbreGroupSeparator 
+            // NumberDecimalDigits sert à afficher ou non quelque chose après la virgule (1 000.00), à 0 on n'affiche pas la virgule et les décimaux derrière
+            NumberFormatInfo nfi = new NumberFormatInfo { NumberGroupSeparator = " ", NumberDecimalDigits = 0 };
+
+            // on retourne notre nombre transformé en string en surchargeant la méthode de notre Format personnalisé
+            return nb.ToString("n", nfi);
         }
     }
 }
