@@ -14,7 +14,7 @@ namespace ProjetJulietteJeremyMailys
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
-        public static int DemandeEntier(string message)
+        public static int DemandeEntier(string message, string affichage)
         {
             bool monTexteEstEntier = false;
             int chiffre = 0;
@@ -35,7 +35,15 @@ namespace ProjetJulietteJeremyMailys
                 else if (chiffre <= 0)
                 {
                     monTexteEstEntier = false;
-                    Console.WriteLine("Le nombre d'heures doit etre un chiffre ou nombre superieur à 0.");
+                    //Ajout d'un paramètre affichage pour gérer les messages d'erreurs du code ou du nombre d'heure
+                    if (affichage == "code")
+                    {
+                        Console.WriteLine("Le code doit etre un chiffre ou nombre superieur à 0.");
+                    }
+                    else if (affichage == "heure")
+                    {
+                        Console.WriteLine("Le nombre d'heure doit etre un chiffre ou nombre superieur à 0.");
+                    }
                     Console.WriteLine();
                 }
             }
