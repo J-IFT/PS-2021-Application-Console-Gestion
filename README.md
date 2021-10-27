@@ -1,14 +1,21 @@
 📚 C# Les fondamentaux – examen n°1 – Gestion des matières
 
-Groupe : Juliette, Jeremy, Maïlys
+Groupe : Juliette et Jeremy
 
 📌 Rappel énoncé : 
 Pour cet examen, vous devez réaliser une petite application console en C# permettant de gérer des matières.
 
 🔎 Fonctionnalités attendus :
+1ère partie:
 - Proposer un menu ✔️
 - Implémenter les fonctions permettant de créer une matière ✔️
 - Implémenter une fonction permettant d’afficher l’ensemble des matières créées ✔️
 - Contrôle des saisies ✔️
 - Affichage du nombre total d’heures ✔️
 - Formatez l’affichage des numériques ✔️
+
+2ème partie :
+- Découpage en services
+- Gestion des formations
+- Modification de la gestion des communes
+- Comptage du nombre d’heures de la formation
