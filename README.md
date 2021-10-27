@@ -2,10 +2,13 @@
 
 Groupe : Juliette et Jeremy
 
+La solution s'appelle toujours ProjetJulietteJeremyMailys mais Mailys ne fait plus partie de l'école donc du projet.
+
 📌 Rappel énoncé : 
 Pour cet examen, vous devez réaliser une petite application console en C# permettant de gérer des matières.
 
 🔎 Fonctionnalités attendus :
+
 1ère partie:
 - Proposer un menu ✔️
 - Implémenter les fonctions permettant de créer une matière ✔️
