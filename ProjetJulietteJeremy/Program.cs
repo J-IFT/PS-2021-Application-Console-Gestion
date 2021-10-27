@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ProjetJulietteJeremyMailys.Model;
+using ProjetJulietteJeremyMailys.Services;
+using System;
 using System.Collections.Generic;
 
 namespace ProjetJulietteJeremyMailys
@@ -10,6 +12,7 @@ namespace ProjetJulietteJeremyMailys
 
             // Faire la liste
             List<Matieres> lesMatieres = new List<Matieres>();
+            List<Formations> lesFormations = new List<Formations>();
 
             // Faire le menu
             bool exit = false;
@@ -19,7 +22,9 @@ namespace ProjetJulietteJeremyMailys
                 Console.WriteLine("1. Créer une nouvelle matière");
                 Console.WriteLine("2. Afficher l'ensemble des matières");
                 Console.WriteLine("3. Afficher le nombre total d'heures");
-                Console.WriteLine("4. Quitter");
+                Console.WriteLine("4. Créer une nouvelle formation");
+                Console.WriteLine("5. Afficher les informations des formations");
+                Console.WriteLine("6. Quitter");
                 string choixUtilisateur = Console.ReadLine();
                 if (choixUtilisateur == "1")
                 {
@@ -47,7 +52,22 @@ namespace ProjetJulietteJeremyMailys
                     Console.WriteLine("Nombres d'heures total : " + FonctionsUtilisateurs.FormatNombre(NbTotalHeures));
                     Console.WriteLine("*********************************");
                 }
-                else if (choixUtilisateur == "4")
+                if (choixUtilisateur == "4")
+                {
+                    Formations f1 = FonctionsFormations.CreerFormation();
+                    lesFormations.Add(f1);
+                }
+                else if (choixUtilisateur == "5")
+                {
+                    Console.WriteLine("*********************************");
+                    foreach (Formations f in lesFormations)
+                    {
+                        //affichage
+                        Console.WriteLine("Formation : " + f.Nom + "\nCode : " + f.Code + ", Niveau de la formation : " + f.Niveau) ;
+                        Console.WriteLine("*********************************");
+                    }
+                }
+                else if (choixUtilisateur == "6")
                 {
                     exit = true;
                     Console.WriteLine("Appuyer sur une touche pour quitter");

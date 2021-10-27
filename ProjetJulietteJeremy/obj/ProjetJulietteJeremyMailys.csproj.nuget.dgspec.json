@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julie\\OneDrive - Ifag Paris\\Documents\\C#\\Projet\\ProjetJulietteJeremyMailys\\ProjetJulietteJeremyMailys.csproj": {}
+    "C:\\Users\\julie\\OneDrive - Ifag Paris\\Documents\\C#\\Projet\\Projet-Juliette_Jeremy\\ProjetJulietteJeremy\\ProjetJulietteJeremyMailys.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julie\\OneDrive - Ifag Paris\\Documents\\C#\\Projet\\ProjetJulietteJeremyMailys\\ProjetJulietteJeremyMailys.csproj": {
+    "C:\\Users\\julie\\OneDrive - Ifag Paris\\Documents\\C#\\Projet\\Projet-Juliette_Jeremy\\ProjetJulietteJeremy\\ProjetJulietteJeremyMailys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julie\\OneDrive - Ifag Paris\\Documents\\C#\\Projet\\ProjetJulietteJeremyMailys\\ProjetJulietteJeremyMailys.csproj",
+        "projectUniqueName": "C:\\Users\\julie\\OneDrive - Ifag Paris\\Documents\\C#\\Projet\\Projet-Juliette_Jeremy\\ProjetJulietteJeremy\\ProjetJulietteJeremyMailys.csproj",
         "projectName": "ProjetJulietteJeremyMailys",
-        "projectPath": "C:\\Users\\julie\\OneDrive - Ifag Paris\\Documents\\C#\\Projet\\ProjetJulietteJeremyMailys\\ProjetJulietteJeremyMailys.csproj",
+        "projectPath": "C:\\Users\\julie\\OneDrive - Ifag Paris\\Documents\\C#\\Projet\\Projet-Juliette_Jeremy\\ProjetJulietteJeremy\\ProjetJulietteJeremyMailys.csproj",
         "packagesPath": "C:\\Users\\julie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julie\\OneDrive - Ifag Paris\\Documents\\C#\\Projet\\ProjetJulietteJeremyMailys\\obj\\",
+        "outputPath": "C:\\Users\\julie\\OneDrive - Ifag Paris\\Documents\\C#\\Projet\\Projet-Juliette_Jeremy\\ProjetJulietteJeremy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

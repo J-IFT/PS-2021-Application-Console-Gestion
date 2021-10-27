@@ -14,7 +14,7 @@ namespace ProjetJulietteJeremyMailys
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
-        public static int DemandeEntier(string message, string affichage)
+        public static int DemandeString(string message, string affichage)
         {
             bool monTexteEstEntier = false;
             int chiffre = 0;

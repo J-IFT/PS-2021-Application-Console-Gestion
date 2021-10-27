@@ -46,3 +46,19 @@ C:\Users\EPSI.DESKTOP-AD69HTT\Documents\EPSI\B2\DEVE301- Langage C# - Les fondam
 C:\Users\EPSI.DESKTOP-AD69HTT\Documents\EPSI\B2\DEVE301- Langage C# - Les fondamentaux\EVALUATION\APP_MATIERE\PROJET-JJM\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ref\ProjetJulietteJeremyMailys.dll
 C:\Users\EPSI.DESKTOP-AD69HTT\Documents\EPSI\B2\DEVE301- Langage C# - Les fondamentaux\EVALUATION\APP_MATIERE\PROJET-JJM\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.pdb
 C:\Users\EPSI.DESKTOP-AD69HTT\Documents\EPSI\B2\DEVE301- Langage C# - Les fondamentaux\EVALUATION\APP_MATIERE\PROJET-JJM\ProjetJulietteJeremyMailys\obj\Debug\net5.0\ProjetJulietteJeremyMailys.genruntimeconfig.cache
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\bin\Debug\net5.0\ProjetJulietteJeremyMailys.exe
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\bin\Debug\net5.0\ProjetJulietteJeremyMailys.deps.json
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\bin\Debug\net5.0\ProjetJulietteJeremyMailys.runtimeconfig.json
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\bin\Debug\net5.0\ProjetJulietteJeremyMailys.runtimeconfig.dev.json
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\bin\Debug\net5.0\ProjetJulietteJeremyMailys.dll
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\bin\Debug\net5.0\ref\ProjetJulietteJeremyMailys.dll
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\bin\Debug\net5.0\ProjetJulietteJeremyMailys.pdb
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\obj\Debug\net5.0\ProjetJulietteJeremyMailys.csproj.AssemblyReference.cache
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\obj\Debug\net5.0\ProjetJulietteJeremyMailys.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\obj\Debug\net5.0\ProjetJulietteJeremyMailys.AssemblyInfoInputs.cache
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\obj\Debug\net5.0\ProjetJulietteJeremyMailys.AssemblyInfo.cs
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\obj\Debug\net5.0\ProjetJulietteJeremyMailys.csproj.CoreCompileInputs.cache
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\obj\Debug\net5.0\ProjetJulietteJeremyMailys.dll
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\obj\Debug\net5.0\ref\ProjetJulietteJeremyMailys.dll
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\obj\Debug\net5.0\ProjetJulietteJeremyMailys.pdb
+C:\Users\julie\OneDrive - Ifag Paris\Documents\C#\Projet\Projet-Juliette_Jeremy\ProjetJulietteJeremy\obj\Debug\net5.0\ProjetJulietteJeremyMailys.genruntimeconfig.cache
