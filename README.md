@@ -20,5 +20,5 @@ Pour cet examen, vous devez réaliser une petite application console en C# perme
 2ème partie :
 - Découpage en services ✔️(à valider ensemble)
 - Gestion des formations ✔️
-- Modification de la gestion des communes
-- Comptage du nombre d’heures de la formation
+- Modification de la gestion des communes ✔️  
+- Comptage du nombre d’heures de la formation✔️ 
