@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace ProjetJulietteJeremyMailys.Model
 {
-    class Matieres
+    public class Matieres
     {
         public string Nom;
 
         public int Code;
 
         public int Nbheures;
+
+        public int CodeFormation;
 
         public string NbTotalheures { get; internal set; }
     }

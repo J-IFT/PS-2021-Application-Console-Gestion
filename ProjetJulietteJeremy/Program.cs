@@ -14,6 +14,11 @@ namespace ProjetJulietteJeremyMailys
             List<Matieres> lesMatieres = new List<Matieres>();
             List<Formations> lesFormations = new List<Formations>();
 
+            FonctionsUtilisateurs foncUtilisateurs = new FonctionsUtilisateurs();
+            FonctionsFormations foncFormations = new FonctionsFormations(foncUtilisateurs);
+            FonctionsMatieres foncMatieres = new FonctionsMatieres(foncUtilisateurs, foncFormations);
+
+
             // Faire le menu
             bool exit = false;
             while (exit == false)
@@ -28,8 +33,16 @@ namespace ProjetJulietteJeremyMailys
                 string choixUtilisateur = Console.ReadLine();
                 if (choixUtilisateur == "1")
                 {
-                    Matieres p1 = FonctionsMatieres.CreerMatiere();
-                    lesMatieres.Add(p1);
+                    if (lesFormations.Count == 0)
+                    {
+                        Console.WriteLine("Créer d'abord une formation avant d'ajouter une matière");
+                        Console.WriteLine("*********************************");
+                    }
+                    else
+                    {
+                        Matieres p1 = foncMatieres.CreerMatiere();
+                        lesMatieres.Add(p1);
+                    }
                 }
                 else if (choixUtilisateur == "2")
                 {
@@ -37,7 +50,7 @@ namespace ProjetJulietteJeremyMailys
                     foreach (Matieres p in lesMatieres)
                     {
                         //affichage
-                        Console.WriteLine("Matière : " + p.Nom + "\nCode : " + p.Code + ", Nombres d'heures : " + FonctionsUtilisateurs.FormatNombre(p.Nbheures));
+                        Console.WriteLine("Matière : " + p.Nom + "\nCode : " + p.Code + ", Nombres d'heures : " + FonctionsUtilisateurs.FormatNombre(p.Nbheures) + "Formation : " + foncFormations.afficherFormation(p.CodeFormation));
                         Console.WriteLine("*********************************");
                     }
                 }
@@ -54,7 +67,7 @@ namespace ProjetJulietteJeremyMailys
                 }
                 if (choixUtilisateur == "4")
                 {
-                    Formations f1 = FonctionsFormations.CreerFormation();
+                    Formations f1 = foncFormations.CreerFormation();
                     lesFormations.Add(f1);
                 }
                 else if (choixUtilisateur == "5")

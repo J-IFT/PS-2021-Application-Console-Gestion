@@ -7,14 +7,14 @@ using System.Globalization;
 
 namespace ProjetJulietteJeremyMailys
 {
-    class FonctionsUtilisateurs
+    public class FonctionsUtilisateurs
     {
         /// <summary>
         /// Demande à l'utilisateur un entier
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
-        public static int DemandeString(string message, string affichage)
+        public virtual int DemandeString(string message, string affichage)
         {
             bool monTexteEstEntier = false;
             int chiffre = 0;
@@ -51,7 +51,7 @@ namespace ProjetJulietteJeremyMailys
         }
 
         // Demande à l'utilisateur une chaine de caractère
-        public static string DemandeString(string message)
+        public virtual string DemandeString(string message)
         {
             // Declaration des variables
             bool texteNonNul = true;

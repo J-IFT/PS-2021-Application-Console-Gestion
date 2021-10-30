@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetJulietteJeremyMailys.Model
 {
-    class Formations
+    public class Formations
     {
         public string Nom;
 
