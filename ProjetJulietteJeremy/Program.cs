@@ -50,7 +50,7 @@ namespace ProjetJulietteJeremyMailys
                     foreach (Matieres p in lesMatieres)
                     {
                         //affichage
-                        Console.WriteLine("Matière : " + p.Nom + "\nCode : " + p.Code + ", Nombres d'heures : " + FonctionsUtilisateurs.FormatNombre(p.Nbheures) + "Formation : " + foncFormations.afficherFormation(p.CodeFormation));
+                        Console.WriteLine("Matière : " + p.Nom + "\nCode : " + p.Code + ", Nombres d'heures : " + foncUtilisateurs.FormatNombre(p.Nbheures) + ", Formation : " + foncFormations.afficherFormation(p.CodeFormation));
                         Console.WriteLine("*********************************");
                     }
                 }
@@ -62,7 +62,7 @@ namespace ProjetJulietteJeremyMailys
                         NbTotalHeures += p.Nbheures;
                     }
                     //affichage
-                    Console.WriteLine("Nombres d'heures total : " + FonctionsUtilisateurs.FormatNombre(NbTotalHeures));
+                    Console.WriteLine("Nombres d'heures total : " + foncUtilisateurs.FormatNombre(NbTotalHeures));
                     Console.WriteLine("*********************************");
                 }
                 if (choixUtilisateur == "4")
@@ -76,7 +76,8 @@ namespace ProjetJulietteJeremyMailys
                     foreach (Formations f in lesFormations)
                     {
                         //affichage
-                        Console.WriteLine("Formation : " + f.Nom + "\nCode : " + f.Code + ", Niveau de la formation : " + f.Niveau) ;
+                        Console.WriteLine("Formation : " + f.Nom + "\nCode : " + f.Code + ", Niveau de la formation : " + f.Niveau);
+                        Console.WriteLine("Temps de la formation : " + foncFormations.calculTempsFormation(f.Code, lesMatieres));
                         Console.WriteLine("*********************************");
                     }
                 }

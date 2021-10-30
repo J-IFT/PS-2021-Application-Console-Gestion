@@ -97,7 +97,7 @@ namespace ProjetJulietteJeremyMailys
         }
 
         // Fonction qui permet de formater les nombres dans le format 1 234 567 au lieu de 1234567
-        public static string FormatNombre(int nb)
+        public virtual string FormatNombre(int nb)
         {
             //On défini un nouveau format de nombre qu'on personnalise
             // " " pour un espace en séparateur (a modifier si on veut "," ou ".") dans la variable NumbreGroupSeparator 

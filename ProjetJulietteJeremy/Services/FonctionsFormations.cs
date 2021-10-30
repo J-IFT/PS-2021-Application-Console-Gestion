@@ -65,5 +65,19 @@ namespace ProjetJulietteJeremyMailys.Services
 
             return nomForma;
         }
+
+        public virtual int calculTempsFormation(int code, List<Matieres> liste)
+        {
+            int tempsTotal = 0;
+            foreach (Matieres m in liste)
+            {
+                if (m.CodeFormation == code)
+                {
+                    tempsTotal += m.Nbheures;
+                }
+            }
+
+            return tempsTotal;
+        }
     }
 }
