@@ -76,26 +76,20 @@ Cet examen consiste à continuer l’application de gestion des formations déve
 
 - Découpage en services ✔️
 
-Réaliser le découpage en services : vous devez décomposer l’application (qui se trouve dans la classe Program.cs) pour créer les services nécessaires
-- Sauf pour la partie principale (Program.cs), la gestion des dépendances entre les services doit se faire par le constructeur.
-- Idéalement, pour chaque service, vous devez créer : l’interface et le service implémentant l’interface
+Réaliser le découpage en services : vous devez décomposer l’application (qui se trouve dans la classe Program.cs) pour créer les services nécessaires. Sauf pour la partie principale (Program.cs), la gestion des dépendances entre les services doit se faire par le constructeur. Idéalement, pour chaque service, vous devez créer : l’interface et le service implémentant l’interface
 
 
 - Gestion des formations ✔️
 
 Vous devrez également implémenter une nouvelle fonctionnalité consistant à gérer les formations.
 Chaque formation est composée d’un code, d’un nom et d’un niveau.
-Vous devez créer les entrées du menu permettant :
-- De créer une formation
-- D’afficher les informations des formations.
+Vous devez créer les entrées du menu permettant : De créer une formation et D’afficher les informations des formations.
 
 
 - Modification de la gestion des communes ✔️
 
 Les matières doivent être reliées aux formations.
-Vous devez modifier :
-- La création d’une matière : vous devez demander le code de la formation et la relier à la formation (on part du principe qu’une matière ne peut être attachée qu’à une formation)
-- L’affichage d’une matière : vous devez afficher, en plus des informations de la matière, le nom de la formation.
+Vous devez modifier : La création d’une matière : vous devez demander le code de la formation et la relier à la formation (on part du principe qu’une matière ne peut être attachée qu’à une formation) ; L’affichage d’une matière : vous devez afficher, en plus des informations de la matière, le nom de la formation.
 
 
 - Comptage du nombre d’heures de la formation ✔️
