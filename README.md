@@ -78,9 +78,7 @@ Cet examen consiste à continuer l’application de gestion des formations déve
 
 Réaliser le découpage en services : vous devez décomposer l’application (qui se trouve dans la classe Program.cs) pour créer les services nécessaires
 - Sauf pour la partie principale (Program.cs), la gestion des dépendances entre les services doit se faire par le constructeur.
-- Idéalement, pour chaque service, vous devez créer :
-o L’interface
-o Le service implémentant l’interface
+- Idéalement, pour chaque service, vous devez créer : l’interface et le service implémentant l’interface
 
 
 - Gestion des formations ✔️
