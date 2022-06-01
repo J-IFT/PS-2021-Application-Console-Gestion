@@ -48,12 +48,12 @@ En suivant l'exemple donné par l'intervenant.
 
 Les opérations que vous venez de réaliser doivent inclure un contrôle des saisies utilisateur.
 Pour cela, vous devez vous assurer que :
-Les saisies numériques (Code et nombre d’heures) soient bien réalisées sous forme numérique
-Les saisies correspondent à un entier strictement supérieur à 0
-Le nom de la matière n’est pas vide
-Le nom de la matière commence par une majuscule
-Le nom de la matière n’est pas un numérique (123 doit être rejeté par exemple)
-Pour chaque saisie erronée, vous devrez proposer un message à l’utilisateur lui indiquant que la saisie n’est pas valide.
+Les saisies numériques (Code et nombre d’heures) soient bien réalisées sous forme numérique ;
+Les saisies correspondent à un entier strictement supérieur à 0 ;
+Le nom de la matière n’est pas vide ;
+Le nom de la matière commence par une majuscule ;
+Le nom de la matière n’est pas un numérique (123 doit être rejeté par exemple) ;
+Pour chaque saisie erronée, vous devrez proposer un message à l’utilisateur lui indiquant que la saisie n’est pas valide. ;
 Idéalement un message très explicite doit être réalisé (par exemple : « Saisie incorrecte : le nom de la matière ne doit pas être vide » ou « Saisie incorrecte : le nom de la matière ne doit pas être un numérique »).
 
 
