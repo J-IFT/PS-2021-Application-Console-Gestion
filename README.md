@@ -40,6 +40,7 @@ Une matière doit avoir les propriétés suivantes -> Nom : une chaine de caract
 En suivant l'exemple donné par l'intervenant.
 
 - Contrôle des saisies ✔️
+
 Les opérations que vous venez de réaliser doivent inclure un contrôle des saisies utilisateur.
 Pour cela, vous devez vous assurer que :
 - Les saisies numériques (Code et nombre d’heures) soient bien réalisées sous forme numérique
@@ -51,11 +52,13 @@ Pour chaque saisie erronée, vous devrez proposer un message à l’utilisateur 
 Idéalement un message très explicite doit être réalisé (par exemple : « Saisie incorrecte : le nom de la matière ne doit pas être vide » ou « Saisie incorrecte : le nom de la matière ne doit pas être un numérique »).
 
 - Affichage du nombre total d’heures ✔️
+
 Une fois les opérations précédentes réalisées, vous devez afficher le nombre total d’heures pour l’ensemble des matières.
 Pour cela, vous devez ajouter une entrée au menu (3. Afficher le nombre total d’heures).
 Lorsque l’utilisateur fera ce choix, vous devrez calculer puis afficher le nombre total d’heures de toutes les matières et l’afficher à l’utilisateur.
 
 - Formatez l’affichage des numériques ✔️
+
 Les numériques affichés sous la forme 480000 ne sont pas très lisible. Je souhaite avoir un affichage utilisant le « . » comme séparateur de millier, million, milliard… Par exemple 480.000.
 
 *2ème partie :
@@ -63,6 +66,7 @@ Les numériques affichés sous la forme 480000 ne sont pas très lisible. Je sou
 Cet examen consiste à continuer l’application de gestion des formations développée lors du premier examen.
 
 - Découpage en services ✔️
+
 Réaliser le découpage en services : vous devez décomposer l’application (qui se trouve dans la classe Program.cs) pour créer les services nécessaires
 - Sauf pour la partie principale (Program.cs), la gestion des dépendances entre les services doit se faire par le constructeur.
 - Idéalement, pour chaque service, vous devez créer :
@@ -70,6 +74,7 @@ o L’interface
 o Le service implémentant l’interface
 
 - Gestion des formations ✔️
+
 Vous devrez également implémenter une nouvelle fonctionnalité consistant à gérer les formations.
 Chaque formation est composée d’un code, d’un nom et d’un niveau.
 Vous devez créer les entrées du menu permettant :
@@ -77,12 +82,14 @@ Vous devez créer les entrées du menu permettant :
 - D’afficher les informations des formations.
 
 - Modification de la gestion des communes ✔️
+
 Les matières doivent être reliées aux formations.
 Vous devez modifier :
 - La création d’une matière : vous devez demander le code de la formation et la relier à la formation (on part du principe qu’une matière ne peut être attachée qu’à une formation)
 - L’affichage d’une matière : vous devez afficher, en plus des informations de la matière, le nom de la formation.
 
 - Comptage du nombre d’heures de la formation ✔️
+
 Lors de l’affichage des informations d’une formation, vous devez en plus afficher le nombre d’heure total de cours (ie la somme des heures des matières qui la compose).
 
 ### 💻 Applications et langages utilisés :
