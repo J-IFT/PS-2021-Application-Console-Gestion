@@ -29,12 +29,15 @@ Fonctionnalités attendues :
 Pour cet examen, vous devez réaliser une petite application console en C# permettant de gérer des matières.
 
 - Proposer un menu ✔️
+
 Le menu vous permettra de choisir entre créer une matière et afficher l’ensemble des matières saisies.
 
 - Implémenter les fonctions permettant de créer une matière ✔️
+
 Une matière doit avoir les propriétés suivantes -> Nom : une chaine de caractères ; Code : un entier ; Nombre d’heures : un entier.
 
 - Implémenter une fonction permettant d’afficher l’ensemble des matières créées ✔️
+
 En suivant l'exemple donné par l'intervenant.
 
 - Contrôle des saisies ✔️
