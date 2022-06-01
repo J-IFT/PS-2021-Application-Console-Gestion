@@ -99,7 +99,7 @@ Lors de l’affichage des informations d’une formation, vous devez en plus aff
 ### 💻 Applications et langages utilisés :
 
 + C#
-+ Visual Studio Code
++ Visual Studio
 
 
 
