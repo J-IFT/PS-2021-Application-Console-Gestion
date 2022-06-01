@@ -28,17 +28,21 @@ Fonctionnalités attendues :
 
 Pour cet examen, vous devez réaliser une petite application console en C# permettant de gérer des matières.
 
+
 - Proposer un menu ✔️
 
 Le menu vous permettra de choisir entre créer une matière et afficher l’ensemble des matières saisies.
+
 
 - Implémenter les fonctions permettant de créer une matière ✔️
 
 Une matière doit avoir les propriétés suivantes -> Nom : une chaine de caractères ; Code : un entier ; Nombre d’heures : un entier.
 
+
 - Implémenter une fonction permettant d’afficher l’ensemble des matières créées ✔️
 
 En suivant l'exemple donné par l'intervenant.
+
 
 - Contrôle des saisies ✔️
 
@@ -52,19 +56,23 @@ Pour cela, vous devez vous assurer que :
 Pour chaque saisie erronée, vous devrez proposer un message à l’utilisateur lui indiquant que la saisie n’est pas valide.
 Idéalement un message très explicite doit être réalisé (par exemple : « Saisie incorrecte : le nom de la matière ne doit pas être vide » ou « Saisie incorrecte : le nom de la matière ne doit pas être un numérique »).
 
+
 - Affichage du nombre total d’heures ✔️
 
 Une fois les opérations précédentes réalisées, vous devez afficher le nombre total d’heures pour l’ensemble des matières.
 Pour cela, vous devez ajouter une entrée au menu (3. Afficher le nombre total d’heures).
 Lorsque l’utilisateur fera ce choix, vous devrez calculer puis afficher le nombre total d’heures de toutes les matières et l’afficher à l’utilisateur.
 
+
 - Formatez l’affichage des numériques ✔️
 
 Les numériques affichés sous la forme 480000 ne sont pas très lisible. Je souhaite avoir un affichage utilisant le « . » comme séparateur de millier, million, milliard… Par exemple 480.000.
 
+
 *2ème partie :
 
 Cet examen consiste à continuer l’application de gestion des formations développée lors du premier examen.
+
 
 - Découpage en services ✔️
 
@@ -74,6 +82,7 @@ Réaliser le découpage en services : vous devez décomposer l’application (qu
 o L’interface
 o Le service implémentant l’interface
 
+
 - Gestion des formations ✔️
 
 Vous devrez également implémenter une nouvelle fonctionnalité consistant à gérer les formations.
@@ -82,12 +91,14 @@ Vous devez créer les entrées du menu permettant :
 - De créer une formation
 - D’afficher les informations des formations.
 
+
 - Modification de la gestion des communes ✔️
 
 Les matières doivent être reliées aux formations.
 Vous devez modifier :
 - La création d’une matière : vous devez demander le code de la formation et la relier à la formation (on part du principe qu’une matière ne peut être attachée qu’à une formation)
 - L’affichage d’une matière : vous devez afficher, en plus des informations de la matière, le nom de la formation.
+
 
 - Comptage du nombre d’heures de la formation ✔️
 
